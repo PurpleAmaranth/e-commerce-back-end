@@ -9,6 +9,7 @@ const ProductTag = require('./ProductTag');
 // Categories have many Products
 
 // Products belongToMany Tags (through ProductTag)
+//***********see belongsToMany and include the through syntax***************
 
 // Tags belongToMany Products (through ProductTag)
 
