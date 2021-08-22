@@ -16,17 +16,37 @@ SO THAT my company can compete with other e-commerce companies
 ## Instructions
 
 ```md
-This program uses a functional Express.js API
-You are able to add a database name, MySQL username, and MySQL password to an environment variable file
-Which is then able to connect to a database using Sequelize
-After you enter schema and seed commands to your command line or other application
-you can run a development database that is created and is seeded with your test data
-After you enter the command to invoke the application
-Your server is started and the Sequelize models are synced to the MySQL database
-Once open API GET routes in Insomnia Core for categories, products, or tags
-The data for each of these routes is displayed in a formatted JSON
-Then you can test your API POST, PUT, and DELETE routes in the Insomnia Core
-Afterwards you will be able to successfully create, update, and delete data in your database
+To run the database and test the API in your Insomnia CORE app:
+
+Create a MYSQL Database:
+* Start the MYSQL server and create a new database using the schema.
+* To start one in the terminal use "mysql -u root -p"
+* Paste in the schema lines.
+* Then "quit".
+* Seed the new database using "npm run seed" in the terminal.
+
+Run the Server:
+* Enter "npm run start" to start the server.js.
+
+Use requests in the Insomnia App to test the API:
+
+Set up your repository and requests in your Insomnia app. follow the documentation on the Insomnia website on how to add a Git Sync for future repo modifications or corrections.
+
+Follow this video to find out more about the app:
+Link: https://www.youtube.com/watch?v=fzLPHpOP3Wc
+
+---Detailed Usage---
+This program uses a functional Express.js API.
+You are able to add a database name, MySQL username, and MySQL password to an environment variable file.
+Which is then able to connect to a database using Sequelize.
+After you enter schema and seed commands to your command line or other application.
+you can run a development database that is created and is seeded with your test data.
+After you enter the command to invoke the application.
+Your server is started and the Sequelize models are synced to the MySQL database.
+Once open API GET routes in Insomnia Core for categories, products, or tags.
+The data for each of these routes is displayed in a formatted JSON.
+Then you can test your API POST, PUT, and DELETE routes in the Insomnia Core.
+Afterwards you will be able to successfully create, update, and delete data in your database.
 ```
 
 ## Mock-Up
