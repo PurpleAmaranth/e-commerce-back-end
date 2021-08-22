@@ -68,3 +68,5 @@ The following animation shows the application's POST, PUT, and DELETE routes for
 the program uses the [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect the Express.js API to a MySQL database and the [dotenv](https://www.npmjs.com/package/dotenv) package to use environment variables to store sensitive data.
 
 ### Walkthrough Video:
+
+https://user-images.githubusercontent.com/36141949/130337963-2465b87b-1903-4303-85f3-3b73925b7d2a.mp4
